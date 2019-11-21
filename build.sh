@@ -49,7 +49,7 @@ cd $public
 function movefiles() #
 {
     for file in $(ls $1); do
-        if [ -d $file  ]; then
+        if [ -d $1"/"$file  ]; then
             movefiles $1"/"$file "/"$file
         else
             mv -f $1"/"$file $target$2"/"
