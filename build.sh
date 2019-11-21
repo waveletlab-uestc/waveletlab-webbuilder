@@ -52,7 +52,7 @@ function movefiles() #
         if [ -d $1"/"$file  ]; then
             movefiles $1"/"$file "/"$file
         else
-            mv -f $1"/"$file $target$2"/"
+            mv -f $1"/"$file $target$2"/"$file
         fi
     done
     return 0
