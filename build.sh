@@ -2,7 +2,6 @@
 
 yarn run build
 
-
 # save current dir
 current=$(pwd)
 # backup to coding
