@@ -1,0 +1,17 @@
+{
+  "name": "waveletlab-saber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "saber",
+    "build": "saber build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-loader": "^3.0.0",
+    "saber": "^0.4.10"
+  }
+}
