@@ -8,7 +8,7 @@
           <ul class="information">
             <li>
               <i class="fas fa-phone has-text-info"></i>
-              <a href="#">+86 (0)28-8683-1549</a>
+              <a href="#">+86 15623704274</a>
             </li>
             <li>
               <i class="fas fa-map-marker has-text-info"></i>
