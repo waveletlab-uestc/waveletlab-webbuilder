@@ -35,17 +35,33 @@ cd ../../
 if [ ! -d "./waveletlab-uestc.github.io" ]; then
     # get repositories
     git clone git@github.com:waveletlab-uestc/waveletlab-uestc.github.io.git
-    target=$(pwd)"waveletlab-uestc.github.io/"
+    target=$(pwd)"waveletlab-uestc.github.io"
 else
     cd waveletlab-uestc.github.io
     git pull # update
-    target=$(pwd)"/"
+    target=$(pwd)
 fi
 
 # shift to /public
 cd $public
 # move all the files to target dir
-mv -f ./* $target
+
+function movefiles() #
+{
+    for file in $(ls $1); do
+        if [ -d $file  ]; then
+            movefiles $1"/"$file "/"$file
+        else
+            mv -f $1"/"$file $target$2"/"
+        fi
+    done
+    return 0
+}
+
+movefiles $public ""
+
+read -s -n1 -p "press any key to continue ..."
+
 # update web
 cd $target
 git add .
@@ -56,6 +72,7 @@ echo -e "\e[0;31;1mPush to github Complete.\e[0m"
 
 # update current repos
 cd $current
+rm -rf public 
 git add .
 git commit -m "update"
 git push
