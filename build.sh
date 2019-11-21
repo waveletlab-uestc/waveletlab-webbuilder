@@ -64,7 +64,7 @@ function movefiles() #
 
 movefiles $public ""
 
-read -s -n1 -p "press any key to continue ..."
+# read -s -n1 -p "press any key to continue ..."
 
 # update web
 cd $target
