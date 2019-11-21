@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ ! -d "./.saber" ]; then
+    yarn
+fi
+
 yarn run build
 
 # save current dir
