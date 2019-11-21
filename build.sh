@@ -50,7 +50,7 @@ function movefiles() #
 {
     for file in $(ls $1); do
         if [ -d $1"/"$file  ]; then
-            movefiles $1"/"$file "/"$file
+            movefiles $1"/"$file $2"/"$file
         else
             mv -f $1"/"$file $target$2"/"
         fi
