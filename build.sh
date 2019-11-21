@@ -2,7 +2,12 @@
 
 yarn run build
 
-# shift path
+
+# save current dir
+current=$(pwd)
+# backup to coding
+
+echo -e '\e[0;31;1mPush to coding ...\e[0m'
 
 cd public/
 git init
@@ -14,23 +19,45 @@ git commit -m "page changes"
 #git push -f
 git push --set-upstream origin master -f
 
-# shift path
+echo -e '\e[0;31;1mPush to coding complete.\e[0m'
 
-cd ..
+sleep 1s
 
-rm -rf public
+# push to github(main branch)
 
-clear 
+echo -e '\e[0;31;1mPush to github ...\e[0m'
+# in public/
 
-echo "update this commit"
+public=$(pwd)
 
+cd ../../
+# check ../../waveletlat-uestc.github.io
+
+if [ ! -d "./waveletlab-uestc.github.io" ]; then
+    # get repositories
+    git clone git@github.com:waveletlab-uestc/waveletlab-uestc.github.io.git
+    target=$(pwd)"waveletlab-uestc.github.io/"
+else
+    cd waveletlab-uestc.github.io
+    git pull # update
+    target=$(pwd)"/"
+fi
+
+# shift to /public
+cd $public
+# move all the files to target dir
+mv -f ./* $target
+# update web
+cd $target
 git add .
-
 git commit -m "update"
-
 git push
 
-echo "Done!"
+echo -e "\e[0;31;1mPush to github Complete.\e[0m"
 
-
-
+# update current repos
+cd $current
+git add .
+git commit -m "update"
+git push
+echo -e "\e[0;31;1mDone!\e[0m"
