@@ -24,8 +24,6 @@ git push --set-upstream origin master -f
 
 echo -e '\e[0;31;1mPush to coding complete.\e[0m'
 
-sleep 1s
-
 # push to github(main branch)
 
 echo -e '\e[0;31;1mPush to github ...\e[0m'

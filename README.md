@@ -25,7 +25,7 @@ Tips: 页面都在 `/pages` 目录下的文件中，支持 markdown 和 html 语
 
 - 手动
 
-首先运行`yarn run build`，会生成静态网页文件到./public目录下，你需要做的就是将public下的所有文件部署到生成page的repository中就行。
+首先运行`yarn run build`，会生成静态网页文件到`./public`目录下，你需要做的就是将public下的所有文件部署到生成page的repository中就行。
 
 目前采用的是github pages进行部署。
 
@@ -47,7 +47,7 @@ github仓库地址：https://github.com/waveletlab-uestc/waveletlab-uestc.github
 ```
 ./build.sh
 ```
-其会在上层路径下clone[github仓库](https://github.com/waveletlab-uestc/waveletlab-uestc.github.io.git)，如果有则更新
+其会在上层路径下clone [github仓库](https://github.com/waveletlab-uestc/waveletlab-uestc.github.io.git)，如果有则更新
 
 出于一些效率和安全的考虑，build.sh会把`/public`下的文件首先**强制推送**到coding仓库中（备份），然后再**更新**github仓库。
 
