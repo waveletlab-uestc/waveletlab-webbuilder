@@ -18,6 +18,14 @@ The full papers to be presented will be peer-reviewed by expert reviewers includ
 
 ## Latest News
 
+## Camera Ready Submission and the Invoice information (Dec. 3th update)
+
+**These days please pay attention to your email inbox.**
+
+Kindly do not forget to submit your Camera-Ready Submission, transfer paper fee, and the copyright before the deadline Dec.8th, which all can be done in the CMT system.
+
+If you have transferred the money and need the invoice from our conference, please complete [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__gI7z2dUM1g4Vlc3VUYyTVRFUzRWVVQxV1FWUDlXMy4u) (Whether you have uploaded these information in the system, please help us to finish the form again, which is more convenient for us to collect information from you)
+
 ### About the paper status and notification (Nov. 20th update)
 
 We are reviewing new papers now, it will take more time for us to finish the paper reviewing.
