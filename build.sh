@@ -2,8 +2,8 @@
 
 DEPLOY_PATH="../waveletlab-uestc.github.io"
 BUILD_PATH="./public"
-HOST=192.168.45.2
-PORT=3030
+HOST=192.168.56.2
+PORT=3000
 
 is_yarn_init() {
     if [[ -d ".saber" && -d "node_modules" ]]; then
@@ -19,14 +19,14 @@ yarn_init() {
 
 yarn_dev() {
     if ! is_yarn_init; then
-        init_yarn
+        yarn_init
     fi
-    yarn run dev --host $HOST
+    yarn run dev --host $HOST --port $PORT
 }
 
 yarn_build() {
     if ! is_yarn_init; then
-        init_yarn
+        yarn_init
     fi
     yarn run build
 }
@@ -116,7 +116,7 @@ deploy() {
 
 if [[ $# == 0 ]]; then
     yarn_build
-    return 0
+    exit 0
 fi
 
 ret=0

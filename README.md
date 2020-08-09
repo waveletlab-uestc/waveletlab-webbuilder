@@ -1,54 +1,42 @@
-# waveletlab.org网站生成器
+# ICCWAMTIP 网站生成器
 
 使用静态网站生成工具 [Saber](https://github.com/egoist/saber) 构建的小波国际会议网站。
 
 ## 使用指南
 
-1. 安装 [node.js](https://nodejs.org/zh-cn/)
-2. 安装 [yarn](https://yarnpkg.com/zh-Hant/)
-3. git clone 这个仓库并进入这个目录
-4. 安装所有依赖：在仓库目录下执行
-    ```
-    yarn
-    ```
+1. 安装 [nodejs](https://nodejs.org/zh-cn/)
+   - 使用包管理器 https://nodejs.org/en/download/package-manager/
+   - Windows 下载安装包[直接安装](https://nodejs.org/en/download/package-manager/#windows)，或者使用 `Chocolatey` 或 `scoop`
+
+2. 安装 [yarn](https://yarnpkg.com/) https://yarnpkg.com/getting-started/install
+3. 克隆这个仓库并进入这个目录
+   ```shell
+   $ git clone git@github.com:waveletlab-uestc/waveletlab-webbuilder.git
+   $ cd waveletlab-webbuilder
+   ```
+
+4. 修改 `build.sh` 文件中的 `DEPLOY_PATH` 变量为部署的文件夹
+   1. 克隆部署网站的仓库到某个位置
+      ```shell
+      $ git clone git@github.com:waveletlab-uestc/waveletlab-uestc.github.io.git
+      $ # 采取 SSH 方式克隆 (git@github.com) 目的是为了 git push 方便
+      ```
+   2. 修改 `./build.sh` 中的 `DEPLOY_PATH` 为上述文件夹地址
+
 5. 修改源码
+
+   - 希望预览生成的页面通过命令，如果绑定服务器到指定主机和端口，修改 `./build.sh` 中的 `HOST` 和 `PORT` 变量
+     ```shell
+     $ ./build.sh dev
+     ```
+
+   Tips: 页面都在 `pages/` 目录下的文件中，支持 `Markdown` 和 `HTML` 语法
+
+6. 修改完成后，构建并部署到网站上
+   ```shell
+   $ ./build.sh deploy
    ```
-   yarn run dev
-   ```
-   进入网址 [http://localhost:3000/](http://localhost:3000/) 可以实时预览修改的页面
 
-   Tips: 页面都在 `/pages` 目录下的文件中，支持 markdown 和 html 语法
+## build.sh
 
-6. 修改完成后，部署到网站上
-
-  部署可以手动部署和脚本部署
-
-  - 手动
-
-    首先运行`yarn run build`，会生成静态网页文件到`./public`目录下，你需要做的就是将public下的所有文件部署到生成page的repository中就行。
-
-    目前采用的是github pages进行部署。
-
-    由于网站最开始是部署在coding上的，最好有个备份。（比如github的pages服务突然挂掉，还可以转到coding上）
-
-    coding仓库地址：https://git.dev.tencent.com/deardrops/waveletlab.git
-
-    github仓库地址：https://github.com/waveletlab-uestc/waveletlab-uestc.github.io.git
-
-    纯静态网站部署在github上需要关闭jekyll
-
-  - 脚本
-
-  参见下面的build.sh
-
-## 关于build.sh
-
-自动化build工具，在本项目中修改完后，在build.sh同级目录下运行
-```
-./build.sh
-```
-其会在上层路径下clone [github仓库](https://github.com/waveletlab-uestc/waveletlab-uestc.github.io.git)，如果有则更新
-
-出于一些效率和安全的考虑，build.sh会把`/public`下的文件首先**强制推送**到coding仓库中（备份），然后再**更新**github仓库。
-
-**请勿移动build.sh**
+关于更多 `./build.sh` 的用法，请见 `./build.sh help`.
