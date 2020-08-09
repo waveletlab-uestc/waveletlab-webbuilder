@@ -1,81 +1,144 @@
 #!/bin/bash
 
-if [ ! -d "./.saber" ]; then
-    yarn
-fi
+DEPLOY_PATH="../waveletlab-uestc.github.io"
+BUILD_PATH="./public"
+HOST=192.168.45.2
+PORT=3030
 
-yarn run build
-
-# save current dir
-current=$(pwd)
-# backup to coding
-
-echo -e '\e[0;31;1mPush to coding ...\e[0m'
-
-cd public/
-git init
-git remote add origin git@git.dev.tencent.com:deardrops/waveletlab.git
-git branch --set-upstream-to=origin/master master
-git add .
-git commit -m "page changes"
-
-#git push -f
-git push --set-upstream origin master -f
-
-echo -e '\e[0;31;1mPush to coding complete.\e[0m'
-
-# push to github(main branch)
-
-echo -e '\e[0;31;1mPush to github ...\e[0m'
-# in public/
-
-public=$(pwd)
-
-cd ../../
-# check ../../waveletlat-uestc.github.io
-
-if [ ! -d "./waveletlab-uestc.github.io" ]; then
-    # get repositories
-    git clone git@github.com:waveletlab-uestc/waveletlab-uestc.github.io.git
-    target=$(pwd)"waveletlab-uestc.github.io"
-else
-    cd waveletlab-uestc.github.io
-    git pull # update
-    target=$(pwd)
-fi
-
-# shift to /public
-cd $public
-# move all the files to target dir
-
-function movefiles() #
-{
-    for file in $(ls $1); do
-        if [ -d $1"/"$file  ]; then
-            movefiles $1"/"$file $2"/"$file
-        else
-            mv -f $1"/"$file $target$2"/"
-        fi
-    done
-    return 0
+is_yarn_init() {
+    if [[ -d ".saber" && -d "node_modules" ]]; then
+        return 0
+    else
+        return -1
+    fi
 }
 
-movefiles $public ""
+yarn_init() {
+    yarn
+}
 
-# read -s -n1 -p "press any key to continue ..."
+yarn_dev() {
+    if ! is_yarn_init; then
+        init_yarn
+    fi
+    yarn run dev --host $HOST
+}
 
-# update web
-cd $target
-git add .
-git commit -m "update"
-git push
+yarn_build() {
+    if ! is_yarn_init; then
+        init_yarn
+    fi
+    yarn run build
+}
 
-echo -e "\e[0;31;1mPush to github Complete.\e[0m"
+usage() {
+cat <<EOF
+Usage: build.sh {[build] | deploy [--only | --no-git] | dev | help}
+       where build is optional, default command;
+       deploy means deploy static files builed from $BUILD_PATH to $DEPLOY_PATH,
+              with option --only which means only deploy exclude build,
+                   option --no-git which doesn't invoke git to push to remote repo, default is False;
+       dev means run server at http://$HOST:$PORT;
+       help shows this page.
+EOF
 
-# update current repos
-cd $current
-rm -rf public 
-git add .
-git commit -m "update"
-git push
-echo -e "\e[0;31;1mDone!\e[0m"
+    local ret="$1"
+    if [[ -z "$ret" ]]; then
+        ret=0
+    fi
+    exit $ret
+}
+
+# merge tow directories
+merge_directory() {
+    local src="$1"
+    local dst="$2"
+    # first paramater MUST be a directory
+    if [[ ! -d "$src" ]]; then
+        return 1
+    fi
+
+    for file in $(ls "$src"); do
+        if [[ -d "$dst/$file" ]]; then
+            if [[ -d "$src/$file" ]]; then
+                merge_directory "$src/$file" "$dst/$file"
+            else
+                echo "$src/$file is file, but a directory $file is in $dst. Ignore $src/$file"
+            fi
+        else
+            echo "move $src/$file to $dst/$file"
+            mv -f "$src/$file" "$dst/$file"
+        fi
+    done
+}
+
+
+deploy() {
+    local deploy_only=0
+    local invoke_git=1
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            --only)
+                deploy_only=1
+                ;;
+            --no-git)
+                invoke_git=0
+                ;;
+            *)
+                echo "un-cognitive option $1"
+                return 2
+                ;;
+        esac
+        shift
+    done
+
+    if [[ $deploy_only == 0 ]]; then
+        echo "building to $BUILD_PATH ..."
+        yarn_build
+    elif [[ ! -d "$BUILD_PATH" ]]; then
+        echo "No builed files, building to $BUILD_PATH ..."
+        yarn_build
+    fi
+
+    echo "deploy files to $DEPLOY_PATH ..."
+    merge_directory "$BUILD_PATH" "$DEPLOY_PATH"
+
+    if [[ $invoke_git == 1 ]]; then
+        pushd "$DEPLOY_PATH"
+        git add -A
+        git commit
+        git push
+        popd
+    fi
+
+    echo "deploy over."
+}
+
+if [[ $# == 0 ]]; then
+    yarn_build
+    return 0
+fi
+
+ret=0
+case "$1" in
+    b|build)
+        yarn_build
+        ;;
+    d|deploy)
+        shift   # remove deploy paramater from $@
+        deploy $@
+        if [[ $? != 0 ]]; then
+            usage $?
+        fi
+        ;;
+    dev)
+        yarn_dev
+        ;;
+    *)
+        if [[ "help" != "$1" ]]; then
+            echo "un-cognitive command $1"
+            ret=1
+        fi
+        usage $ret
+        ;;
+esac

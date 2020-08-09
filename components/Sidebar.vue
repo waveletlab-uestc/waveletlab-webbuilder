@@ -3,13 +3,13 @@
     <aside class="menu has-background-light">
       <ul class="menu-list is-size-5 is-capitalized">
         <li>
-          <saber-link to="/Information.html">Conference Information</saber-link>
+          <saber-link to="/information.html">Conference Information</saber-link>
         </li>
         <li>
-          <saber-link to="/Guidance.html">Author Guidance</saber-link>
+          <saber-link to="/guidance.html">Author Guidance</saber-link>
         </li>
         <li>
-          <saber-link to="/Timeline.html">Conference Timeline</saber-link>
+          <saber-link to="/timeline.html">Conference Timeline</saber-link>
         </li>
       </ul>
     </aside>

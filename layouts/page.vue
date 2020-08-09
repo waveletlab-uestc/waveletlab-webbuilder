@@ -37,7 +37,7 @@ export default {
   },
   head() {
     return {
-      title: 'ICCWAMTIP 2019',
+      title: '2020 17th ICCWAMTIP',
       link: [
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css' },
         { rel: 'stylesheet', href: './css/style.css' },

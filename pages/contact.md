@@ -3,7 +3,7 @@ title: Contact
 layout: page
 ---
 
-## ICCWAMTIP 2019 Secretariat
+## 2020 17th ICCWAMTIP Secretariat
 
 For more information about ICCWAMTIP, feel free to contact.
 

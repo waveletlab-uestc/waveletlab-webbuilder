@@ -3,12 +3,12 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <h4 class="title"><a href="index.html">ICCWAMTIP 2019</a></h4>
-          <p>The 16th International Computer Conference on Wavelet Active Media Technology and Information Processing</p>
+          <h4 class="title"><a href="index.html">ICCWAMTIP 2020</a></h4>
+          <p>The 17th International Computer Conference on Wavelet Active Media Technology and Information Processing</p>
           <ul class="information">
             <li>
               <i class="fas fa-phone has-text-info"></i>
-              <a href="#">+86 15623704274</a>
+              <a href="#">+86 18064968166</a>
             </li>
             <li>
               <i class="fas fa-map-marker has-text-info"></i>

@@ -11,6 +11,7 @@ The topics of the conference include
 - Active media technology
 - Medical Information
 - Cancer Diagnostic Analysis
+- BlockChain technology
 - Big Data and Cloud Computing
 - Military-civilian integration
 - Fractal geometry
