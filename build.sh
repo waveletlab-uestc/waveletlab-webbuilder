@@ -31,14 +31,20 @@ yarn_build() {
     yarn run build
 }
 
+clean() {
+    rm -rf .saber node_modules
+    rm -rf "$BUILD_PATH"
+}
+
 usage() {
 cat <<EOF
-Usage: build.sh {[build] | deploy [--only | --no-git] | dev | help}
+Usage: build.sh {[build] | deploy [--only | --no-git] | dev | clean | help}
        where build is optional, default command;
        deploy means deploy static files builed from $BUILD_PATH to $DEPLOY_PATH,
               with option --only which means only deploy exclude build,
                    option --no-git which doesn't invoke git to push to remote repo, default is False;
        dev means run server at http://$HOST:$PORT;
+       clean remove all generated files and go back to un-initilized status;
        help shows this page.
 EOF
 
@@ -133,6 +139,9 @@ case "$1" in
         ;;
     dev)
         yarn_dev
+        ;;
+    clean)
+        clean
         ;;
     *)
         if [[ "help" != "$1" ]]; then
