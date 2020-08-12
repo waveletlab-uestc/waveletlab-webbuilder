@@ -8,25 +8,26 @@ layout: page
 Clarence De Silve, UBC, Canada  
 Mo Jamishi, UT Dallas, USA  
 Bruno Torresmi, Fance  
-Yuan Yan Tang, University of Macau, Macau, China  
-Yong Zeng, UESTC, China  
-Cai Dong Xiong, UESTC, China  
-Hong Bing Xu, UESTC, China  
+Tang Yuanyan, University of Macau, Macau, China  
+Zeng Yong, UESTC, China  
+Xiong Caidong, UESTC, China  
+Xu Hongbing, UESTC, China  
 
 ## Honored Chairs:
 
 John Daugman, Cambridge University, UK  
 Simon X. Yang, University of Guelph, Canada  
-Guang Nan Ni, Chinese Academy of Sciences, China  
+Ni Guangnan, Chinese Academy of Sciences, China  
 
 ## General Chairs:
 
-Jian Ping Li, UESTC, China  
+Li Jianping, UESTC, China  
+Wen Guangjun, UESTC, China  
 Ishfaq Ahmad, University of Texas at Arlington, USA  
 
 ## Editor in Chief:
 
-Jian Ping Li, UESTC, China  
+Li Jianping, UESTC, China  
 
 ## Co-Editors:
 
@@ -40,61 +41,59 @@ Lionel M. Ni, The Hong Kong University of Science and Technology, Hong Kong
 Victor Wickerhauser, Washington University, USA  
 Jim X. Chen, George Mason University, USA  
 Rajkumar Buyya,The University of Melbourne, Australian  
-Heng Tao Shen, UESTC, China  
+Shen Hengtao, UESTC, China  
+<!--
 Guang Jun Wen, UESTC, China  
+-->
 
 ## Program Committee Chairs: 
 
 Xiaobo Yuan, Windsor U, Canada  
-Di Liu, UESTC, China  
-Jie Lin, UESTC, China  
-Feng chun Tian, Chongqing University, China  
-Yi Chai, Chongqing University, China  
-Hong Ma, Sichuan University, China  
-Mao Kang Luo, Sichuan University, China  
+Liu Di, UESTC, China  
+Lin Jie, UESTC, China  
+Feng Chuntian, Chongqing University, China  
+Chai Yi, Chongqing University, China  
+Ma Hong, Sichuan University, China  
+Luo Maokang, Sichuan University, China  
 
 ## Organizing Committee Chairs:
 
 Gauri S. Mittal, U of Guelph, Canada  
-Bo Fu, UESTC, China  
-Xing Zheng Ai, UESTC, China  
-Fan Yang, UESTC, China  
+Fu Bo, UESTC, China  
+Ai Xingzheng, UESTC, China  
+Yang Fan, UESTC, China  
 
-## Finance Chairs: 
+## Finance Chairs:
 
-Xiaofeng Gu, UESTC, China  
-Tao Song, Aoxin Technology Co., Ltd, China  
+Gu Xiaofeng, UESTC, China  
+Song Tao, Aoxin Technology Co., Ltd, China  
 
-## Publication Chairs: 
+## Publication Chairs:
 
 Stefano Gregori, University of Guelph, Canada  
 MUDASSIR KHALIL, UESTC, China  
-Ruinan Sun, UESTC, China  
-Zhilong Lai, UESTC, China  
-Tiankai Li, UESTC, China  
+Li Tiankai, UESTC, China  
+Lai Zhilong, UESTC, China  
+Sun Ruinan, UESTC, China  
 
-## Publicity Chairs: 
+## Publicity Chairs:
 
 Chunyi Su, Concordia U, Canada  
-Yuehao Yan, Chengdu Technological University of China, Chengdu, China  
-Yujun Yang, UESTC, China  
-Xinshuo Li, Chongqing University, China  
-Wei Li, UESTC, China  
-FADIA SHAH, UESTC, China  
+Yan Yuehao, Chengdu Technological University of China, Chengdu, China  
+Yang Yujun, UESTC, China  
+Li Xinshuo, Chongqing University, China  
+Li Wei, UESTC, China  
+Shan Fadia, UESTC, China  
 
-## Registration Chairs: 
+## Registration Chairs:
 
-Malu Zhang,UESTC,China  
-Wang Zhou, UESTC, China  
-Ping Li, UESTC, China  
-Xiaoming Wang, UESTC, China  
+Zhang Malu, UESTC,China  
+Zhou Wang, UESTC, China  
+Jiang Tao, UESTC, China  
 
 
 ## Conference Network Chairs:
 
-Jingjing Cai, UESTC, China  
-Zeyu Lou, UESTC, China  
-Xi He, UESTC, China  
-Tao Jiang, UESTC, China  
-Qingsong Wang, UESTC, China  
-
+He Xi, UESTC, China  
+Jiang Tao, UESTC, China  
+Wang Qingsong, UESTC, China  

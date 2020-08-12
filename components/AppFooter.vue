@@ -8,15 +8,15 @@
           <ul class="information">
             <li>
               <i class="fas fa-phone has-text-info"></i>
-              <a href="#">+86 18064968166</a>
+              Mobile: <a href="#">+86-18064968166</a>
             </li>
             <li>
               <i class="fas fa-map-marker has-text-info"></i>
-              <a href="#">No. 2006, Xiyuan Ave., West High-tech Zone, Chengdu</a>
+              Map: <a href="#">No. 2006, Xiyuan Ave., West High-tech Zone, Chengdu</a>
             </li>
             <li>
               <i class="far fa-envelope has-text-info"></i>
-              <a href="mailto:icacia@uestc.edu.cn">icacia@uestc.edu.cn</a>
+              Email: <a href="mailto:icacia@uestc.edu.cn">icacia@uestc.edu.cn</a>
             </li>
           </ul>
         </div>

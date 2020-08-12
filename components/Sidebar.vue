@@ -21,9 +21,10 @@
       <p class="subtitle">
         Everything you need to know here.
       </p>
-      <a class="button is-uppercase is-white is-outlined" href="/doc/CallforPaper_EN.pdf" download="CallforPaper_EN.pdf">Call for paper</a>
-      </br>
-      <a class="button is-uppercase is-white is-outlined" href="/doc/ICCWAMTIP+paper+format.dot" download="Paper format.dot">Paper format</a>
+      <p style="margin-bottom: 1em"><a class="button is-uppercase is-white is-outlined" style="width: 9em" href="/doc/CallforPaper-EN.pdf" download="CallforPaper-EN.pdf">Call for paper</a>
+      </p>
+      <p><a class="button is-uppercase is-white is-outlined" style="width: 9em" href="/doc/paper-format.dotx" download="paper-format.dotx">Paper format</a>
+      </p>
     </div>
     </div>
   </div>

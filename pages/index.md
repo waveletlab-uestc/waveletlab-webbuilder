@@ -4,7 +4,7 @@ layout: page
 ---
 
 <figure class="image">
-  <img src="../static/images/banner.png">
+  <img src="../static/images/banner.jpg">
 </figure>
 
 ## ICCWAMTIP 2020 | Chengdu, China | December 18th, 2020
