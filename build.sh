@@ -2,6 +2,7 @@
 
 DEPLOY_PATH="../waveletlab-uestc.github.io"
 BUILD_PATH="./public"
+#HOST=localhost
 HOST=192.168.56.2
 PORT=3000
 
