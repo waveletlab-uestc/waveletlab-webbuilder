@@ -42,9 +42,7 @@ Victor Wickerhauser, Washington University, USA
 Jim X. Chen, George Mason University, USA  
 Rajkumar Buyya,The University of Melbourne, Australian  
 Shen Hengtao, UESTC, China  
-<!--
 Guang Jun Wen, UESTC, China  
--->
 
 ## Program Committee Chairs: 
 
@@ -97,3 +95,6 @@ Jiang Tao, UESTC, China
 He Xi, UESTC, China  
 Jiang Tao, UESTC, China  
 Wang Qingsong, UESTC, China  
+Zhou Yue, UESTC, China  
+Xiao Fei, UESTC, China  
+Gao Yuan, UESTC, China  

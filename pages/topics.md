@@ -5,11 +5,12 @@ layout: page
 
 ## Topic
 
-The topics of the conference include
+The topics of the conference include and not only include:
 
 - Wavelet algorithm and multi-wavelet
 - Active media technology
-- Medical Information
+- Medical information
+- Blockchain technology
 - Cancer Diagnostic Analysis
 - BlockChain technology
 - Big Data and Cloud Computing
@@ -24,6 +25,7 @@ The topics of the conference include
 - Neural networks, fuzzy systems and soft computing algorithms
 - Multi-agent systems and applications
 - Intelligent algorithms and applications
+- Tele-robotics, haptics, and tele-operated systems
 - Computer network and internet modeling
 - Intelligent communication systems
 - Computational dynamical systems
@@ -40,7 +42,8 @@ The topics of the conference include
 - Process control and industrial automation
 - Robotics and intelligent vehicles
 - Intelligent mechatronics
-- Tele-robotics, haptics, and tele-operated systems
 - Biomimetics and bio-inspired systems
 - Service science, management and engineering
 - Data mining and knowledge discovery
+- Information and cyberspace security
+- Data privacy

@@ -111,10 +111,11 @@ deploy() {
     merge_directory "$BUILD_PATH" "$DEPLOY_PATH"
 
     if [[ $invoke_git == 1 ]]; then
-        pushd "$DEPLOY_PATH"
+        # The symbol > means depress output
+        pushd "$DEPLOY_PATH" > /dev/null
         git add -A
         git commit
-        git push
+        git push > /dev/null
         popd
     fi
 
