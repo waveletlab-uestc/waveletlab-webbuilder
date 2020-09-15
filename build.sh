@@ -56,13 +56,24 @@ EOF
     exit $ret
 }
 
-# merge tow directories
+# merge two directories
 merge_directory() {
     local src="$1"
     local dst="$2"
     # first paramater MUST be a directory
     if [[ ! -d "$src" ]]; then
         return 1
+    fi
+
+    # if has rysnc, use it first
+    if which rsync &> /dev/null; then
+        rsync -rc -vv --delete "$src/" "$dst/"
+        # -r: recursive
+        # -c: enable checksum
+        # --delete: delete file if it's not in $src
+        # -vv: verbose
+        # NOTE must append / at the end of directory
+        return 0
     fi
 
     for file in $(ls "$src"); do
@@ -73,10 +84,11 @@ merge_directory() {
                 echo "$src/$file is file, but a directory $file is in $dst. Ignore $src/$file"
             fi
         else
-            echo "move $src/$file to $dst/$file"
-            mv -f "$src/$file" "$dst/$file"
+            echo "cp $src/$file to $dst/$file"
+            cp -f "$src/$file" "$dst/$file"
         fi
     done
+    return 0
 }
 
 
