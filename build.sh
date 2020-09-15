@@ -67,10 +67,16 @@ merge_directory() {
 
     # if has rysnc, use it first
     if which rsync &> /dev/null; then
-        rsync -rc -vv --delete "$src/" "$dst/"
+        rsync -rc -vv --delete \
+            --exclude='.git' \
+            --exclude='CNAME' \
+            --exclude='.nojekyll' \
+            --exclude='README.md' \
+            "$src/" "$dst/"
         # -r: recursive
         # -c: enable checksum
-        # --delete: delete file if it's not in $src
+        # --delete: delete file if it's not in $src directory
+        # --exclude: remain file in $dst directory
         # -vv: verbose
         # NOTE must append / at the end of directory
         return 0
