@@ -25,7 +25,7 @@ The full papers to be presented will be peer-reviewed by expert reviewers includ
 
 | Event              | Date                     |
 |--------------------|--------------------------|
-|Submission Deadline | **October 15th**, 2020   |
+|Submission Deadline | **October 21th**, 2020   |
 |Notification Date   | November 15th, 2020      |
 |Conference Ceremony | December 18th, 2020      |
 

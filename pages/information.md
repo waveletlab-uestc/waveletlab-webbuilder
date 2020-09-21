@@ -50,12 +50,12 @@ The topics of the conference include:
 - Data mining and knowledge discovery
 
 We will recommend 10%-20% good papers to SCI journals, all the papers accepted by our conference in the past years are indexed by EI.
-Please log in the [cmt system](https://cmt3.research.microsoft.com/ICCWAMTIP2020) to submit your paper(**strongly recommend**), and you can also e-mail your paper directly to icacia@uestc.edu.cn .
+Please log in the [cmt system](https://cmt3.research.microsoft.com/ICCWAMTIP2020) to submit your paper(**strongly recommend**), and you can also e-mail your paper directly to icacia@uestc.edu.cn.
 
 Looking forward to seeing you in Chengdu!
 
 And please notice the following date:
-- Submission closed: **November 15th,2020**
+- Submission closed: **October 21th,2020**
 - Acceptance notification: **November 20th, 2020**
 - Conference Ceremony: **December 18th, 2020**
 
