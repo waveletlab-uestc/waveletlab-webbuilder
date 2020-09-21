@@ -7,7 +7,7 @@ layout: page
 
 | Event                             | Schedule
 |-----------------------------------|--------------------------------------
-|Submission                         | Deadline : **Oct. 15th**
+|Submission                         | Deadline : **Oct. 21th**
 |Paper Review                       | From **Oct. 16th** to **Nov. 14th**
 |Author Notification                | From **Nov. 15th** to **Nov. 16th**
 |Camera Ready Submission &  Payment | Deadline : **Dec. 8th**
