@@ -19,6 +19,7 @@ The full papers to be presented will be peer-reviewed by expert reviewers includ
 ## Latest News
 
 - Updated submission time from **Oct. 15th** to **Oct. 21th**
+- Add WeChat QRCode contact method in [contact](/contact.html) page
 
 
 ## Important Dates
