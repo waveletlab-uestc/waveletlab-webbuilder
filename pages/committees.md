@@ -80,7 +80,6 @@ Chunyi Su, Concordia U, Canada
 Yan Yuehao, Chengdu Technological University of China, Chengdu, China  
 Yang Yujun, UESTC, China  
 Li Xinshuo, Chongqing University, China  
-Li Wei, UESTC, China  
 Shan Fadia, UESTC, China  
 
 ## Registration Chairs:

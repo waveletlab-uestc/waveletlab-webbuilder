@@ -59,16 +59,13 @@ And please notice the following date:
 - Acceptance notification: **November 20th, 2020**
 - Conference Ceremony: **December 18th, 2020**
 
-<!--
 ## CATALOG NUMBERS
 
-Media Type Request | Part Number | ISBN | Print ISSN | Oline ISSN | Media Qty Request
---- | --- | --- | --- | --- | ---
-XPLORE COMPLIANT | CFP19WAM-ART | 978-1-7281-4242-5 | --- | 2576-8964  | 3
-CD-ROM | CFP19WAM-CDR | 978-1-7281-4240-1 | --- | --- | 5
-PRINT | CFP19WAM-PRT | 978-1-7281-4241-8 | --- | --- | 2
--->
-
+Media Type Request | Part Number  | ISBN              | Print ISSN | Oline ISSN | Media Qty Request
+-------------------|--------------|-------------------|:----------:|:----------:|------------------
+XPLORE COMPLIANT   | CFP20WAM-ART | 978-0-7381-4259-3 |     /      | 2576-8964  | 3
+USB                | CFP20WAM-USB | 978-0-7381-4258-6 |     /      |     /      | 3
+PRINT              | CFP20WAM-PRT | 978-0-7381-4257-9 |     /      |     /      | 2
 
 Organization of the 17th ICCWAMTIP
 
