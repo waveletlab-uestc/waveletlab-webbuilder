@@ -15,6 +15,8 @@ We aim to building an idea-trading platform for the purpose of encouraging resea
 
 The full papers to be presented will be peer-reviewed by expert reviewers including the whole organising committees members. We will be thankful for the contributions to ICCWAMTIP 2020. We look forward to your participation and continued engagement at future ICCWAMTIP conferences.
 
+**Affected by the epidemic, this year's conference is a bit different from the past. This year's conference will take the form of an online conference, so international experts and scholars do not need to come to the conference venue, only need to participate in the conference through the Internet. The specific software used will be notified on this website, please pay close attention.**
+
 
 ## Latest News
 
