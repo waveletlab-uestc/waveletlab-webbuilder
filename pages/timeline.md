@@ -5,10 +5,10 @@ layout: page
 
 ## Conference Timeline
 
-| Event                             | Schedule
-|-----------------------------------|--------------------------------------
-|Submission                         | Deadline : **Oct. 21th**
-|Paper Review                       | From **Oct. 16th** to **Nov. 14th**
-|Author Notification                | From **Nov. 15th** to **Nov. 16th**
+| Event                             | Schedule (China Standard Time, UTC+08:00)
+|-----------------------------------|-----------------------------------------
+|Submission                         | Deadline : **Nov. 15th**
+|Paper Review                       | From **Oct. 30th** to **Nov. 30th**
+|Author Notification                | From **Nov. 20th** to **Nov. 30th**
 |Camera Ready Submission &  Payment | Deadline : **Dec. 8th**
 |Conference                         | From **Dec. 18th** to **Dec. 20th**
