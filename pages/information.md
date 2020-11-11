@@ -55,8 +55,8 @@ Please log in the [cmt system](https://cmt3.research.microsoft.com/ICCWAMTIP2020
 Looking forward to seeing you in Chengdu!
 
 And please notice the following date:
-- Submission closed: **November 15th,2020**
-- Acceptance notification: **November 20th, 2020**
+- Submission closed: **November 22th,2020**
+- Acceptance notification: **November 30th, 2020**
 - Conference Ceremony: **December 18th, 2020**
 
 ## CATALOG NUMBERS
