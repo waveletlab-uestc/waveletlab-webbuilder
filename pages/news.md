@@ -3,7 +3,8 @@ title: News
 layout: page
 ---
 
-- **2020-11-26: Advance the deadline for Camera Ready submission (including payment proof submission) from Dec. 8th to Dec. 3th**
+- **2020-12-14: The conference will be held at 09:00 AM Dec. 19th, for the conference routine see bellow.**
+- 2020-11-26: Advance the deadline for Camera Ready submission (including payment proof submission) from Dec. 8th to Dec. 3th
 - 2020-11-11: Extanded submission deadline from **Nov. 15th** to **Nov. 22th**, and accepted notification from **Nov. 20th** to **Nov. 30th**
 - 2020-10-22: Updated time schedule about submission deadline, paper review time and author notification time in page [timeline](timeline.html)
 - 2020-10-19: Updated submission deadline from **Oct. 21th** to **Nov. 15th**, and notification date from **Nov. 15th** to **Nov. 20th**
