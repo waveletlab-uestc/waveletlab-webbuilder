@@ -20,7 +20,8 @@ Affected by the epidemic, this year's conference is a bit different from the pas
 
 ## Latest News
 
-- **2020-12-14: The conference will be held at 09:00 AM Dec. 19th, for the conference routine see bellow.**
+- **2020-12-17: Updated the conference routine.**
+- 2020-12-14: The conference will be held at 09:00 AM Dec. 19th, for the conference routine see bellow.
 - 2020-11-26: Advance the deadline for Camera Ready submission (including payment proof submission) from Dec. 8th to Dec. 3th
 - 2020-11-11: Extanded submission deadline from **Nov. 15th** to **Nov. 22th**, and accepted notification from **Nov. 20th** to **Nov. 30th**
 - 2020-10-22: Updated time schedule about submission deadline, paper review time and author notification time in page [timeline](timeline.html)
@@ -33,20 +34,20 @@ Affected by the epidemic, this year's conference is a bit different from the pas
 
 The conference started on **December 19th from 09:00 AM to 12:30**. For authors who would like to participate in the conference online, please use [腾讯会议](https://meeting.tencent.com/) (Tencent Meeting) software and click this [link](https://meeting.tencent.com/detail.html?mtoken=YLkz6wZkegrdxNJZTA6Zv7pljt*Lgb3wuPKqlFISbRn4WKwI4fATww__&meetingcode=603265301&sdkappid=1400115281&show8k=0) or type room number `603 265 301` in the software to join.
 
+---
 
 09:00  Opening Speech (Conference Chair)  
 09:10  Principle's Speech  
 09:20  Dean's Speech  
 
-09:30  Expert 1 Presentation  
-09:55  Question Time  
-10:00  Expert 2 Presentation  
-10:25  Question Time  
+09:30  Prof. Yuan Yang Tang's Presentation  
+10:00  Prof. Chao-Hsing Hsu's Presentation  
 
-10:30  Coffee Break  
+10:30  Author's Presentation 1  
+10:40  Question Time  
 
-10:45  Author's Presentation 1  
-10:55  Question Time  
+10:45  Coffee Break
+
 11:00  Author's Presentation 2  
 11:10  Question Time  
 11:15  Author's Presentation 3  
@@ -60,8 +61,11 @@ The conference started on **December 19th from 09:00 AM to 12:30**. For authors 
 12:15  Author's Presentation 7  
 12:25  Question Time  
 
-12:30  Closing Speech  
+12:30  Three Entrepreneur and Experts's Presentations
 
+12:45  Closing Speech
+
+---
 
 ## Important Dates
 
