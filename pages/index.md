@@ -20,7 +20,8 @@ Affected by the epidemic, this year's conference is a bit different from the pas
 
 ## Latest News
 
-- **2020-12-17: Updated the conference routine.**
+- **2020-12-29: Add the final booklet of all papers, please download from this [link](/booklet.pdf)**
+- 2020-12-17: Updated the conference routine.
 - 2020-12-14: The conference will be held at 09:00 AM Dec. 19th, for the conference routine see bellow.
 - 2020-11-26: Advance the deadline for Camera Ready submission (including payment proof submission) from Dec. 8th to Dec. 3th
 - 2020-11-11: Extanded submission deadline from **Nov. 15th** to **Nov. 22th**, and accepted notification from **Nov. 20th** to **Nov. 30th**
