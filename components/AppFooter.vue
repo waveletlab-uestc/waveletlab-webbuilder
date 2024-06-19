@@ -2,13 +2,13 @@
   <footer class="footer">
     <div class="container">
       <div class="columns">
-        <div class="column">
-          <h4 class="title"><a href="index.html">ICCWAMTIP 2020</a></h4>
-          <p>The 17th International Computer Conference on Wavelet Active Media Technology and Information Processing</p>
+        <div class="column">x
+          <h4 class="title"><a href="index.html">ICCWAMTIP 2024</a></h4>
+          <p>The 21st International Computer Conference on Wavelet Active Media Technology and Information Processing</p>
           <ul class="information">
             <li>
               <i class="fas fa-phone has-text-info"></i>
-              Mobile: <a href="#">+86-18064968166</a>
+              Mobile: <a href="#">+86-13551324449, +86-13256106622</a>
             </li>
             <li>
               <i class="fas fa-map-marker has-text-info"></i>
