@@ -6,7 +6,7 @@ layout: page
 ## Call For Paper
 
 Dear Authors,
-The 17th International Computer Conference on Wavelet Active Media Technology and Information Processing (the 17th ICCWAMTIP) will be held in the University of Electronic Science and Technology of China (UESTC) on December 18th-20th , 2020.
+The 17th International Computer Conference on Wavelet Active Media Technology and Information Processing (the 21th ICCWAMTIP) will be held in the University of Electronic Science and Technology of China (UESTC) on December 14th-26th , 2024.
 
 The conference is sponsored by IEEE, undertaken by UESTC. The Conference will focus on recent advances in key information technologies. It will provide a remarkable opportunity for the academic and industrial community to address new challenges and share solutions, and discuss future research directions.
 The conference proceedings will be published by UESTC, all accepted papers are expected to be included in IEEE Xplore and will be indexed by EI. Some famous experts are going to present at the conference.
@@ -55,9 +55,9 @@ Please log in the [cmt system](https://cmt3.research.microsoft.com/ICCWAMTIP2020
 Looking forward to seeing you in Chengdu!
 
 And please notice the following date:
-- Submission closed: **November 22th,2020**
-- Acceptance notification: **November 30th, 2020**
-- Conference Ceremony: **December 18th, 2020**
+- Submission closed: **November 22th,2024**
+- Acceptance notification: **November 30th, 2024**
+- Conference Ceremony: **December 15th, 2024**
 
 ## CATALOG NUMBERS
 
@@ -67,10 +67,10 @@ XPLORE COMPLIANT   | CFP20WAM-ART | 978-0-7381-4259-3 |     /      | 2576-8964  
 USB                | CFP20WAM-USB | 978-0-7381-4258-6 |     /      |     /      | 3
 PRINT              | CFP20WAM-PRT | 978-0-7381-4257-9 |     /      |     /      | 2
 
-Organization of the 17th ICCWAMTIP
+Organization of the 21th ICCWAMTIP
 
 International Centre for Wavelet Analysis and Its Applications
 
 Chengdu China, UESTC
 
-August 8th , 2020
+August 8th , 2024
