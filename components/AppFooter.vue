@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="columns">
-        <div class="column">x
+        <div class="column">
           <h4 class="title"><a href="index.html">ICCWAMTIP 2024</a></h4>
           <p>The 21st International Computer Conference on Wavelet Active Media Technology and Information Processing</p>
           <ul class="information">
