@@ -11,4 +11,5 @@ For more information about ICCWAMTIP, feel free to contact.
 - E-mail: <a href="mailto:icacia@uestc.edu.cn">icacia@uestc.edu.cn</a>
 - WeChat QRCode (We will add you into our conference group):
 
-  <img style="width: 200px" src="../static/images/wechat-qr.png" />
+  <img style="width: 200px" src="../static/images/QRcpde Luo" />
+  <img style="width: 200px" src="../static/images/QRcode LI" />
