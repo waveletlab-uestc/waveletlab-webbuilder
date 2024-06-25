@@ -78,11 +78,12 @@ Conference Ceremony | December 15th, 2024
 
 ## CATALOG NUMBERS
 
-Media Type Request | Part Number  | Media Qty Request
--------------------|--------------|------------------
-XPLORE COMPLIANT   | CFP21WAM-ART | 3
-USB                | CFP21WAM-USB | 3
-PRINT              | CFP21WAM-PRT | 2
+Media Type Request | Part Number  | ISBN | Print ISSN | Oline ISSN | Media Qty Request
+-------------------|--------------|------|:----------:|:----------:|------------------
+XPLORE COMPLIANT   | CFP21WAM-ART |   /  |     /      | 2576-8964  | 3
+USB                | CFP21WAM-USB |   /  |     /      |     /      | 3
+PRINT              | CFP21WAM-PRT |   /  |     /      |     /      | 2
+
 
 Any question, please [contact us](/contact.html) by Conferene E-mail and Phone Number.
 
