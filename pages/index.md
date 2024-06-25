@@ -80,7 +80,7 @@ Conference Ceremony | December 15th, 2024
 
 Media Type Request | Part Number  | ISBN | Print ISSN | Oline ISSN | Media Qty Request
 -------------------|--------------|------|:----------:|:----------:|------------------
-XPLORE COMPLIANT   | CFP21WAM-ART |   /  |     /      | 2576-8964  | 3
+XPLORE COMPLIANT   | CFP21WAM-ART |   /  |     /      |     /      | 3
 USB                | CFP21WAM-USB |   /  |     /      |     /      | 3
 PRINT              | CFP21WAM-PRT |   /  |     /      |     /      | 2
 
