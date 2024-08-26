@@ -80,9 +80,9 @@ Conference Ceremony | December 15th, 2024
 
 Media Type Request | Part Number  | ISBN | Print ISSN | Oline ISSN | Media Qty Request
 -------------------|--------------|------|:----------:|:----------:|------------------
-XPLORE COMPLIANT   | CFP21WAM-ART |   /  |     /      |     /      | 3
-USB                | CFP21WAM-USB |   /  |     /      |     /      | 3
-PRINT              | CFP21WAM-PRT |   /  |     /      |     /      | 2
+XPLORE COMPLIANT   | CFP24WAM-ART | 979-8-3315-1925-4  |     /      | 2576-8964      | 1
+USB                | CFP24WAM-USB | 979-8-3315-1924-7  |     /      |     /      | 1
+PRINT              | CFP24WAM-PRT | 979-8-3315-1923-0 |     /      |     /      | 1
 
 
 Any question, please [contact us](/contact.html) by Conferene E-mail and Phone Number.
