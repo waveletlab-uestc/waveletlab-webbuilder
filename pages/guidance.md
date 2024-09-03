@@ -5,7 +5,7 @@ layout: page
 
 ## How to know the paper format of the conference?
 
-Please pay an attention to the left side of this website, you can find [PAPER FORMAT](/static/doc/paper-format.dotx).
+Please pay an attention to the left side of this website, you can find [PAPER FORMAT](/doc/paper-format.dotx).
 
 ## How to submit my paper?
 
