@@ -5,11 +5,12 @@ layout: page
 
 ## How to know the paper format of the conference?
 
-Please pay an attention to the left side of this website, you can find [PAPER FORMAT](/doc/paper-format.dotx).
+Please pay an attention to the left side of this website, you can find 
+<a herf="/doc/paper-format.dotx" target="_blank">PAPER FORMAT</a>.
 
 ## Where can i find the detailed information for this conference
-Call for paper (CN)-----[CallForPaper-CN](/doc/CallforPaper-CN.pdf).
-Call for paper (EN)-----[CallForPaper-EN](/doc/CallforPaper-EN.pdf).
+Call for paper (CN)-----<a herf="/doc/CallforPaper-CN.pdf" target="_blank">CallForPaper-CN</a>
+Call for paper (EN)-----<a herf="/doc/CallforPaper-EN.pdf" target="_blank">CallForPaper-EN</a>.
 
 ## How to submit my paper?
 
