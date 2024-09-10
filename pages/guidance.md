@@ -8,8 +8,8 @@ layout: page
 Please pay an attention to the left side of this website, you can find [PAPER FORMAT](/doc/paper-format.dotx).
 
 ## Where can i find the detailed information for this conference
-Call for paper (CN)-----(/doc/CallforPaper-CN.pdf)
-Call for paper (EN)-----(/doc/CallforPaper-EN.pdf)
+Call for paper (CN)-----[CallForPaper-CN](/doc/CallforPaper-CN.pdf).
+Call for paper (EN)-----[CallForPaper-EN](/doc/CallforPaper-EN.pdf).
 
 ## How to submit my paper?
 
