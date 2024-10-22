@@ -6,7 +6,7 @@
         </div>
         <div>
           <a class="button is-dark" href="https://cmt3.research.microsoft.com/ICCWAMTIP2020">Submit A Paper Now!</a>
-          <a class="button is-dark" href="/Users/lixu/waveletlab-uestc/waveletlab-webbuilder/static/doc/Instructions for using the Microsoft CMT system.pdf/Instructions for using the Microsoft CMT system.docx">Instruction for Submission</a>
+          <a class="button is-dark" href="/doc/Instructions for using the Microsoft CMT system.pdf">Instruction for Submission</a>
         </div>
       </div>
   </section>
