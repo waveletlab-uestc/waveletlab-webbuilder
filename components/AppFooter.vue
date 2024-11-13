@@ -8,7 +8,7 @@
           <ul class="information">
             <li>
               <i class="fas fa-phone has-text-info"></i>
-              Mobile: <a href="#">+86-13551324449, +86-13256106622</a>
+              Mobile: <a href="#">+86-13551324449</a>
             </li>
             <li>
               <i class="fas fa-map-marker has-text-info"></i>

@@ -12,7 +12,6 @@ For more information about ICCWAMTIP, feel free to contact.
 - WeChat QRCode (We will add you into our conference group):
 
   <img style="width: 200px" src="../static/images/QRcode Luo.png" />
-  <img style="width: 200px" src="../static/images/QRcode LI.png" />
 
   - QQ Group Chat (We will answer your question about the submission of the paper or other related questions here)
 
