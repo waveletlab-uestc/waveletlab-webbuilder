@@ -72,7 +72,7 @@ The conference started on **December 15th from 09:00 AM to 12:30**. For authors 
 
  Event              | Date (China Standard Time, UTC+08:00)
 --------------------|--------------------------------------
-Submission Deadline | **November 22th**, 2024
+Submission Deadline | **December 8th**, 2024
 Notification Date   | November 30th, 2024
 Conference Ceremony | December 15th, 2024
 
