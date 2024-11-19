@@ -56,7 +56,7 @@ Looking forward to seeing you in Chengdu!
 
 And please notice the following date:
 - Submission closed: **December 8th,2024**
-- Acceptance notification: **November 30th, 2024**
+- Acceptance notification: **December 15th, 2024**
 - Conference Ceremony: **December 15th, 2024**
 
 ## CATALOG NUMBERS

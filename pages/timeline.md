@@ -9,6 +9,6 @@ layout: page
 |-----------------------------------|-----------------------------------------
 |Submission                         | Deadline : **December. 8th**
 |Paper Review                       | From **Oct. 30th** to **Nov. 30th**
-|Author Notification                | From **Nov. 20th** to **Nov. 30th**
+|Author Notification                | From **Nov. 20th** to **December 15th**
 |Camera Ready Submission &  Payment | Deadline : **Dec. 3th**
 |Conference                         | From **Dec. 14th** to **Dec. 16th**
