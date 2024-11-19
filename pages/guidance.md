@@ -28,10 +28,10 @@ Once your paper is accepted, we will send an email to you. And you can check you
 
 Number of pages | Fee
 --- | ---
-Less than 4 pages (include 4 pages) | 2700￥
+Less than 4 pages (include 4 pages) | 2800￥
 More than 4 pages,for each additional page | 400￥
 
-Example: 6 pages will be charged for 3500￥(2700+400×2).
+Example: 6 pages will be charged for 3600￥(2800+400×2).
 
 ## More questions?
 
