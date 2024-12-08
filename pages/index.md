@@ -33,7 +33,7 @@ Affected by the epidemic, this year's conference is a bit different from the pas
 
 ## Conference Routine
 
-The conference started on **December 15th from 09:00 AM to 12:30**. For authors who would like to participate in the conference online, please use [腾讯会议](https://meeting.tencent.com/) (Tencent Meeting) software and click this [link](https://meeting.tencent.com/dm/j1KZ7Mzg1pBl) or type room number **<span style="color:red">739 224 211</span>** in the software to join.
+The conference started on **December 14th from 09:00 AM to 12:30**. For authors who would like to participate in the conference online, please use [腾讯会议](https://meeting.tencent.com/) (Tencent Meeting) software and click this [link](https://meeting.tencent.com/dm/j1KZ7Mzg1pBl) or type room number **<span style="color:red">739 224 211</span>** in the software to join.
 
 ---
 
